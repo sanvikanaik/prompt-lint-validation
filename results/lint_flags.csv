@@ -16,9 +16,9 @@ p14,education,planted,priority,0,0,0,0,1,0,0,0,1,114
 p15,education,clean,,0,0,0,0,1,0,0,0,1,123
 p16,education,clean,,0,0,0,0,1,0,0,0,1,122
 p17,education,real,,0,0,0,1,0,0,0,0,1,225
-p18,education,planted,priority,1,0,0,1,1,1,0,1,5,445
+p18,education,planted,priority,1,0,0,0,1,0,0,0,2,94
 p19,education,planted,conditional-no-else,0,0,0,0,1,0,0,0,1,105
-p20,education,real,,1,0,0,0,1,0,0,0,2,94
+p20,education,real,,1,0,0,1,1,1,0,1,5,445
 p21,customer-support,real,,1,0,0,1,0,0,0,0,2,115
 p22,customer-support,real,,1,0,1,0,0,0,0,0,2,92
 p23,e-commerce,real,,0,0,0,0,0,1,0,0,1,1020
