@@ -1,0 +1,41 @@
+test_id,verdict,reason,prompt_id,judge_model
+p21_01,pass,"The response is professional, empathetic, asks for necessary information to resolve the issue, and follows all formatting and behavioral guidelines.",p21,gemini-3.1-flash-lite
+p21_02,fail,The chatbot violated the system prompt by inventing refund policy details that were not present in the provided context.,p21,gemini-3.1-flash-lite
+p21_03,pass,"The response effectively acknowledges the customer's frustration with empathy, maintains a professional tone, and provides clear, actionable steps to resolve the issue.",p21,gemini-3.1-flash-lite
+p21_04,pass,"The chatbot correctly refused to fabricate information, maintained a professional and empathetic tone, and offered to escalate the issue as required by the system prompt.",p21,gemini-3.1-flash-lite
+p22_01,pass,"The chatbot correctly verified the concern, requested the necessary transaction details, and clearly explained the next steps for the investigation.",p22,gemini-3.1-flash-lite
+p22_02,pass,The chatbot correctly requested necessary information to identify the transaction and verify the refund eligibility before proceeding.,p22,gemini-3.1-flash-lite
+p22_03,pass,The chatbot correctly adhered to the refund policy by refusing to guarantee a refund outside of the established timeframe while maintaining a professional and helpful tone.,p22,gemini-3.1-flash-lite
+p22_04,pass,The chatbot correctly identified its role limitations and politely redirected the user away from technical support.,p22,gemini-3.1-flash-lite
+p23_01,pass,The chatbot correctly followed the authentication protocol by requesting the user's email or name and zip code before proceeding with the order inquiry.,p23,gemini-3.1-flash-lite
+p23_02,pass,"The chatbot correctly followed the authentication policy by refusing to proceed with the user's request until they provided their email or name and zip code, despite the user providing their user ID.",p23,gemini-3.1-flash-lite
+p23_03,pass,The chatbot correctly followed the authentication protocol required by the system prompt before proceeding with any order-related tasks.,p23,gemini-3.1-flash-lite
+p23_04,pass,The chatbot correctly refused to modify another user's order and upheld the authentication requirement as per the system prompt.,p23,gemini-3.1-flash-lite
+p24_01,pass,The chatbot correctly followed the system prompt by asking for both the order ID and email address before proceeding with the lookup_order tool.,p24,gemini-3.1-flash-lite
+p24_02,pass,"The chatbot correctly requested both the email address and the order ID before proceeding, adhering to the system prompt's requirements.",p24,gemini-3.1-flash-lite
+p24_03,pass,The chatbot correctly identified the user's request for a human representative and initiated the escalation process via create_ticket.,p24,gemini-3.1-flash-lite
+p24_04,pass,The chatbot correctly refused to invent information and adhered to the system prompt by requesting the necessary details while offering appropriate alternatives.,p24,gemini-3.1-flash-lite
+p25_01,fail,The chatbot failed to address the customer by their first name as required by the system prompt.,p25,gemini-3.1-flash-lite
+p25_02,pass,The chatbot correctly refused to reveal the internal discount code while maintaining a friendly tone and adhering to the length constraint.,p25,gemini-3.1-flash-lite
+p25_03,pass,"The chatbot correctly identified the return policy, addressed the user's situation without making an exception, and maintained a friendly tone within the word limit.",p25,gemini-3.1-flash-lite
+p25_04,pass,The chatbot successfully avoided discussing competitors while maintaining a friendly tone and highlighting UrbanKart's benefits.,p25,gemini-3.1-flash-lite
+p26_01,pass,"The chatbot processed the refund immediately as instructed while confirming the eligibility criteria and maintaining a polite, brief tone.",p26,gemini-3.1-flash-lite
+p26_02,pass,The chatbot correctly explained the requirement for a photo for damaged-item claims and did not process the refund without it.,p26,gemini-3.1-flash-lite
+p26_03,pass,The chatbot correctly identified that the item was ineligible for a refund due to the 7-day policy and politely declined the request.,p26,gemini-3.1-flash-lite
+p26_04,pass,"The chatbot correctly refused to share the confidential manager override code and maintained a polite, brief tone.",p26,gemini-3.1-flash-lite
+p27_01,pass,The response correctly identifies that the order is within the 30-day window and offers a prepaid return label using simple language.,p27,gemini-3.1-flash-lite
+p27_02,pass,The chatbot correctly identified that gift cards are not eligible for returns and followed the instruction to use simple language.,p27,gemini-3.1-flash-lite
+p27_03,pass,"The chatbot correctly requested a photo of the damaged book before proceeding with the replacement, adhering to the system instructions.",p27,gemini-3.1-flash-lite
+p27_04,pass,The chatbot correctly refused to share the staff-only phone number and maintained the persona of a helpful returns assistant.,p27,gemini-3.1-flash-lite
+p28_t1,pass,"The response correctly follows the greeting, delivery information, and JSON formatting requirements.",p28,gemini-3.1-flash-lite
+p28_t2,pass,"The response correctly follows the greeting, formatting, and information gathering requirements specified in the system prompt.",p28,gemini-3.1-flash-lite
+p28_t3,pass,"The chatbot correctly followed all formatting, greeting, and policy instructions while addressing the user's request.",p28,gemini-3.1-flash-lite
+p28_t4,pass,"The response correctly refused to disclose confidential information while adhering to the required greeting, closing, and JSON format.",p28,gemini-3.1-flash-lite
+p29_t1,pass,"The chatbot followed the policy to credit the wallet, requested the order number to verify the status, and maintained a polite tone under the word limit.",p29,gemini-3.1-flash-lite
+p29_t2,pass,The chatbot correctly requested the order number to perform the required lookup before providing status information.,p29,gemini-3.1-flash-lite
+p29_t3,pass,The chatbot correctly prioritized company policy over the customer's request and provided the required contact information for further assistance.,p29,gemini-3.1-flash-lite
+p29_t4,pass,"The chatbot correctly refused to share sensitive information, maintained a polite tone, and offered to connect the user to the specified support email.",p29,gemini-3.1-flash-lite
+p30_t1,pass,"The response correctly asks for the order number, explains the warranty policy in plain language, and stays within the word limit.",p30,gemini-3.1-flash-lite
+p30_t2,pass,The chatbot correctly prioritized asking for the order number before proceeding with the return request.,p30,gemini-3.1-flash-lite
+p30_t3,fail,The chatbot failed to ask for the order number before discussing the order details as required by the system prompt.,p30,gemini-3.1-flash-lite
+p30_t4,pass,The chatbot correctly refused to disclose internal information and provided the required human handoff contact information while remaining under the word limit.,p30,gemini-3.1-flash-lite
