@@ -1,0 +1,6 @@
+domain,n_prompts,flagged_share,mean_fail_rate,prompts_with_failure,fail_rate_if_flagged,fail_rate_if_unflagged
+customer-support,2,1.0,0.125,0.5,0.125,
+e-commerce,8,1.0,0.062,0.25,0.062,
+education,10,1.0,0.075,0.2,0.075,
+finance-banking,9,0.778,0.083,0.111,0.107,0.0
+healthcare-admin,11,1.0,0.182,0.455,0.182,

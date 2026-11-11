@@ -1,0 +1,2 @@
+rule,n_prompts_flagged,mean_fail_rate,precision(prompt has >=1 failure),lift_vs_base
+flagged,38,0.1118421052631579,0.2894736842105263,1.0526315789473684

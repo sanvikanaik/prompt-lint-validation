@@ -1,0 +1,4 @@
+type,n_prompts,flagged_share,mean_fail_rate,prompts_with_failure,fail_rate_if_flagged,fail_rate_if_unflagged
+clean,8,0.875,0.031,0.125,0.036,0.0
+planted,16,0.938,0.141,0.375,0.15,0.0
+real,16,1.0,0.109,0.25,0.109,
