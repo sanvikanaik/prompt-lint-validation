@@ -23,5 +23,5 @@ mean_fail_rate_unflagged,0.0
 fisher_odds_ratio,inf
 fisher_p,1.0
 mannwhitney_p,0.40553739890437623
-spearman_rho_nflags_failrate,0.1395325761691024
+spearman_rho_nflags_failrate,0.09185434629215089
 fail_rate_threshold,0.25

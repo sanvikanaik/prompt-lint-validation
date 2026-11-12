@@ -1,0 +1,5 @@
+planted_type,n_prompts,flagged_share,mean_fail_rate,prompts_with_failure,fail_rate_if_flagged,fail_rate_if_unflagged
+conditional-no-else,4,0.75,0.062,0.25,0.083,0.0
+direct,4,1.0,0.125,0.5,0.125,
+priority,5,1.0,0.3,0.6,0.3,
+scope,3,1.0,0.0,0.0,0.0,
