@@ -1,0 +1,9 @@
+rule,rule_based_fires,llm_fires,agree_%,kappa
+always_and_never,20,37,57,0.15
+length_conflict,1,2,92,-0.03
+no_output_format,7,23,50,0.09
+vague_terms,5,30,38,0.09
+no_fallback,23,20,52,0.05
+no_role,2,1,98,0.66
+long_unstructured,0,0,100,
+negation_heavy,7,14,78,0.44

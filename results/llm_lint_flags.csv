@@ -1,0 +1,41 @@
+id,type,domain,planted_conflict_type,always_and_never,length_conflict,no_output_format,vague_terms,no_fallback,no_role,long_unstructured,negation_heavy,conflict_found,total_flags,conflict_type_pred,reason
+p01,real,finance-banking,,1,0,0,1,0,0,0,1,0,3,none,The prompt relies on multiple absolute directives and negative constraints to define behavior.
+p02,real,finance-banking,,1,0,0,1,1,0,0,1,0,4,none,The prompt relies on multiple absolute negative constraints and lacks a fallback procedure for missing information.
+p03,real,finance-banking,,1,0,0,1,0,0,0,1,0,3,none,The prompt uses absolute directives like 'NEVER VIOLATE' and relies on subjective terms like 'professional' and 'clear'.
+p04,real,healthcare-admin,,1,0,0,0,0,0,0,0,0,1,none,The prompt uses absolute directives like 'Never' and 'ONLY THEN' to enforce strict procedural constraints.
+p05,planted,finance-banking,direct,1,0,1,1,1,0,0,1,1,6,direct,The prompt contains a direct contradiction by instructing the assistant to always answer every question while simultaneously forbidding the disclosure of the promo code.
+p06,planted,finance-banking,scope,1,0,1,1,1,0,0,0,1,5,direct,The prompt contains contradictory instructions regarding when to provide the fee waiver code.
+p07,planted,finance-banking,conditional-no-else,1,0,1,1,1,0,0,0,0,4,none,The prompt uses absolute negative constraints and lacks a defined output format or fallback procedure for out-of-scope queries.
+p08,planted,finance-banking,priority,1,0,0,1,1,0,0,0,0,3,none,The prompt uses absolute directives like 'every reply' and relies on vague terms like 'professional but friendly'.
+p09,clean,finance-banking,,1,0,1,1,0,0,0,0,0,3,none,The prompt uses absolute negative directives and lacks a defined output format or specific definition for 'simple language'.
+p10,clean,finance-banking,,1,0,1,0,0,0,0,1,0,3,none,The prompt uses absolute negative constraints and lacks a defined output format.
+p11,real,education,,1,0,1,1,1,0,0,0,0,4,none,The prompt uses absolute directives like 'Always' and 'Never' and lacks a defined output format or fallback strategy for out-of-scope queries.
+p12,real,education,,1,0,0,1,0,0,0,1,0,3,none,The prompt relies heavily on absolute negative constraints (NEVER/Do NOT) and uses vague terms like 'appropriate' and 'productive struggle' without precise definitions.
+p13,planted,education,direct,1,0,0,1,0,0,0,0,1,3,direct,The prompt contains a direct contradiction regarding the disclosure of the unlock code.
+p14,planted,education,priority,1,0,0,1,1,0,0,0,0,3,none,The prompt uses absolute directives like 'never' and relies on the vague term 'age-appropriate' without specific guidelines.
+p15,clean,education,,1,0,1,1,0,0,0,0,0,3,none,The prompt uses absolute negative constraints and lacks a defined output structure or definition for 'simple language'.
+p16,clean,education,,1,0,1,1,0,0,0,1,0,4,none,The prompt uses absolute negative constraints and lacks a defined output structure.
+p17,real,education,,1,1,1,1,0,0,0,1,1,6,direct,The prompt contains contradictory instructions regarding whether to provide the answer directly or guide the student to solve it themselves.
+p18,planted,education,priority,1,1,0,1,1,0,0,0,1,5,direct,The instruction to keep replies under 40 words directly contradicts the requirement to show full step-by-step working for every problem.
+p19,planted,education,conditional-no-else,1,0,1,1,1,0,0,0,0,4,none,The prompt uses absolute negative constraints and lacks a defined output format or fallback procedure for out-of-scope queries.
+p20,real,education,,1,0,0,1,0,1,0,1,0,4,none,The prompt relies heavily on absolute prohibitions and negative constraints while lacking a defined persona or role for the assistant.
+p21,real,customer-support,,1,0,0,1,0,0,0,0,0,2,none,The prompt uses absolute directives like 'Never' and relies on subjective terms such as 'professional' and 'appropriate'.
+p22,real,customer-support,,1,0,1,1,1,0,0,0,0,4,none,The prompt uses absolute directives like 'Always' and 'Never' and lacks instructions for handling out-of-scope requests or output formatting.
+p23,real,e-commerce,,1,0,1,0,0,0,0,1,0,3,none,The prompt uses absolute directives like 'must' and 'under no circumstances' (implied by 'only') and relies heavily on negative constraints.
+p24,real,e-commerce,,1,0,1,1,0,0,0,1,0,4,none,The prompt relies on absolute negative constraints and lacks a defined output structure.
+p25,planted,e-commerce,direct,1,0,1,1,1,0,0,0,1,5,direct,The prompt instructs the assistant to never reveal internal discount codes while simultaneously providing the code STAFF40.
+p26,planted,e-commerce,scope,1,0,1,0,1,0,0,0,1,4,direct,The prompt mandates immediate refunds without proof while simultaneously requiring photos for damaged-item claims.
+p27,planted,e-commerce,conditional-no-else,0,0,1,1,1,0,0,0,0,3,none,The prompt lacks a specified output format and does not define how to handle requests outside of the provided return scenarios.
+p28,planted,e-commerce,priority,1,0,0,0,1,0,0,0,1,3,direct,The prompt requires a JSON-only output while simultaneously mandating specific greeting and closing text.
+p29,clean,e-commerce,,0,0,1,1,0,0,0,0,0,2,none,The prompt lacks a specified output format and uses the vague term 'polite' without definition.
+p30,clean,e-commerce,,0,0,1,0,0,0,0,0,0,1,none,The prompt lacks a specified output format or structure for the assistant's responses.
+p31,real,healthcare-admin,,1,0,1,1,1,0,0,0,0,4,none,The prompt uses absolute directives like 'Always' and 'MUST' and lacks a defined output format or fallback procedure for errors.
+p32,real,healthcare-admin,,1,0,0,0,0,0,0,1,0,2,none,The prompt relies heavily on absolute directives and negative constraints to enforce behavior.
+p33,real,healthcare-admin,,1,0,0,1,0,0,0,1,0,3,none,The prompt relies heavily on negative constraints and absolute directives while using vague terms like 'naturally' and 'briefly'.
+p34,real,healthcare-admin,,1,0,0,1,1,0,0,1,0,4,none,The prompt uses absolute directives like 'never' and 'always' and relies on vague terms like 'nice way' and 'simple language'.
+p35,planted,healthcare-admin,direct,1,0,1,1,1,0,0,0,1,5,direct,The prompt instructs to never reveal discount codes while simultaneously providing the code CARE50.
+p36,planted,healthcare-admin,scope,1,0,1,1,1,0,0,0,1,5,direct,The prompt contains directly contradictory instructions regarding the conditions for waiving late cancellation fees.
+p37,planted,healthcare-admin,conditional-no-else,1,0,1,0,1,0,0,0,0,3,none,The prompt uses absolute language like 'strictly' and lacks instructions for output formatting or handling out-of-scope queries.
+p38,planted,healthcare-admin,priority,1,0,0,0,1,0,0,0,1,3,direct,The instruction to always return a JSON object conflicts with the instruction to always begin and end the reply with specific text strings.
+p39,clean,healthcare-admin,,1,0,1,1,0,0,0,0,0,3,none,The prompt uses absolute terms like 'never' and lacks a defined output format or specific definitions for 'polite' and 'clear'.
+p40,clean,healthcare-admin,,1,0,0,0,0,0,0,0,0,1,none,The prompt uses absolute directives like 'Never' which can be overly restrictive.
